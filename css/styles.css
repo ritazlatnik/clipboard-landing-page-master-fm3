@@ -1,0 +1,72 @@
+/* ##Breakpoints
+- Mobile: 375px
+- Desktop: 1200px
+
+##Colors
+###Primary
+- Strong Cyan: hsl(171, 66%, 44%)
+- Light Blue: hsl(233, 100%, 69%)
+
+###Neutral
+- Dark Grayish Blue: hsl(210, 10%, 33%)
+- Grayish Blue: hsl(201, 11%, 66%)
+
+##Typography
+###Body copy
+- Font size: 18px
+
+###Fonts
+- Family: Bai Jamjuree
+- Weights: 400, 600
+
+###Icons
+For the social icons, you can use the SVGs provided or a font icon library. Some font icon library suggestions can be found below:
+
+- Font Awesome
+- IcoMoon
+- Ionicons
+
+/******************************
+/* SETUP
+/******************************/
+
+/* Box Model Hack */
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/******************************
+/* BASE STYLES
+/******************************/
+
+body {
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+/******************************
+/* LAYOUT - Mobile 375px
+/******************************/
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************
+/* LAYOUT - Desktop 1200px
+/******************************/
+
+
+
+
