@@ -44,24 +44,110 @@ For the social icons, you can use the SVGs provided or a font icon library. Some
 
 body {
     margin: 0 auto;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
 }
 
 /******************************
 /* LAYOUT - Mobile 375px
 /******************************/
 
+header {
+    background-image: url("../images/bg-header-mobile.png");
+    /* background-position: center top; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 260px;
+    opacity: 0.8;
+    /* border-bottom: 1px solid red; */
+    /* background-image: linear-gradient(to bottom); */
+}
 
+.logo {
+    text-align: center;
+    padding: 90px 0 40px;       /* or with positioning? */
+}
 
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 80%; */
+    padding: 60px 30px;
+}
 
+.computer, .devices {
+    max-width: 100%;
+}
 
+h1, h2, h3 {
+    color: hsl(210, 10%, 33%);
+}
 
+p {
+    color: hsl(201, 11%, 66%);
+    line-height: 1.6em;
+    margin: 0 4px;
+}
 
+h1 {
+    font-size: 32px;
+}
 
+.green, .blue {
+    padding: 15px 0 10px;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+}
 
+.green {
+    background-color: hsl(171, 66%, 44%, 0.8);
+    border-bottom: 2px solid hsl(171, 66%, 44%);
+    margin: 50px 0 0;
+    box-shadow: 0 15px 10px -5px hsla(171, 66%, 44%, 0.218),     /* below */
+    -0.625rem 0 0.625rem -0.3125rem hsla(171, 66%, 44%, 0.03),  /* left */
+    0.625rem 0 0.625rem -0.3125rem hsla(171, 66%, 44%, 0.03);   /* right */
+}
 
+.blue {
+    background-color: hsl(233, 100%, 69%, 0.8);
+    border-bottom: 2px solid hsl(233, 100%, 69%);
+    margin: 30px 0 15px;
+    box-shadow: 0 15px 10px -5px hsla(233, 100%, 69%, 0.218),
+    -0.625rem 0 0.625rem -0.3125rem hsla(233, 100%, 69%, 0.03),
+    0.625rem 0 0.625rem -0.3125rem hsla(233, 100%, 69%, 0.03);
+}
 
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.computer, .devices {
+    margin: 60px 0 30px;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 30px 0 10px;
+}
+
+.workflow {
+    padding: 0 30px 60px;
+}
+
+.blacklist, .snippet, .preview {
+    min-width: 100%;
+    padding: 90px 135px 5px; 
+}
+
+.google, .ibm, .microsoft, .hp, .vg {
+    align-self: center;
+    padding: 30px 0;
+}
 
 /******************************
 /* LAYOUT - Desktop 1200px
