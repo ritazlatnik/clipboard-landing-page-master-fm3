@@ -58,23 +58,24 @@ header {
     /* background-position: center top; */
     background-size: cover;
     background-repeat: no-repeat;
-    height: 260px;
+    height: 290px;
     opacity: 0.8;
-    /* border-bottom: 1px solid red; */
     /* background-image: linear-gradient(to bottom); */
 }
 
-.logo {
+header .logo {
     text-align: center;
-    padding: 90px 0 40px;       /* or with positioning? */
+    padding: 130px 0 40px;       /* or with positioning? */
 }
 
 section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* width: 80%; */
-    padding: 60px 30px;
+}
+
+.history {
+    padding: 10px 30px 30px;
 }
 
 .computer, .devices {
@@ -101,12 +102,14 @@ h1 {
     border: none;
     color: #fff;
     font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
 }
 
 .green {
     background-color: hsl(171, 66%, 44%, 0.8);
     border-bottom: 2px solid hsl(171, 66%, 44%);
-    margin: 50px 0 0;
+    margin: 45px 0 0;
     box-shadow: 0 15px 10px -5px hsla(171, 66%, 44%, 0.218),     /* below */
     -0.625rem 0 0.625rem -0.3125rem hsla(171, 66%, 44%, 0.03),  /* left */
     0.625rem 0 0.625rem -0.3125rem hsla(171, 66%, 44%, 0.03);   /* right */
@@ -115,7 +118,7 @@ h1 {
 .blue {
     background-color: hsl(233, 100%, 69%, 0.8);
     border-bottom: 2px solid hsl(233, 100%, 69%);
-    margin: 30px 0 15px;
+    margin: 25px 0 15px;
     box-shadow: 0 15px 10px -5px hsla(233, 100%, 69%, 0.218),
     -0.625rem 0 0.625rem -0.3125rem hsla(233, 100%, 69%, 0.03),
     0.625rem 0 0.625rem -0.3125rem hsla(233, 100%, 69%, 0.03);
@@ -126,13 +129,21 @@ h2 {
     margin-bottom: 20px;
 }
 
+.track {
+    padding: 100px 30px 60px;
+}
+
+.access {
+    padding: 90px 30px 40px;
+}
+
 .computer, .devices {
     margin: 60px 0 30px;
 }
 
 h3 {
     font-size: 24px;
-    margin: 30px 0 10px;
+    margin: 50px 0 10px;
 }
 
 .workflow {
@@ -140,13 +151,61 @@ h3 {
 }
 
 .blacklist, .snippet, .preview {
-    min-width: 100%;
-    padding: 90px 135px 5px; 
+    align-self: center;
+    padding: 90px 134px 5px; 
+}
+
+.clients {
+    padding: 60px 0;
 }
 
 .google, .ibm, .microsoft, .hp, .vg {
     align-self: center;
     padding: 30px 0;
+}
+
+.appstore {
+    padding: 60px 30px 30px;
+}
+
+.footer-menu {
+    background-color: hsl(201, 11%, 66%, 0.1);
+}
+
+.footer-menu .logo {
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -25px; */
+}
+
+ul {
+    list-style-type: none; 
+    padding: 10px 0;
+}
+
+li {
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+    margin: 30px 0;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.social img {
+    padding: 0 20px;
+}
+
+footer {
+    background-color: hsl(201, 11%, 66%, 0.1);
+    padding-bottom: 20px;
 }
 
 /******************************
