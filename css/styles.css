@@ -54,13 +54,11 @@ body {
 /******************************/
 
 header {
-    background-image: url("../images/bg-header-mobile.png");
-    /* background-position: center top; */
-    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(255, 255, 255)), 
+    url("../images/bg-header-mobile.png");
     background-repeat: no-repeat;
-    height: 290px;
-    opacity: 0.8;
-    /* background-image: linear-gradient(to bottom); */
+    height: 705px;
+    /* border-bottom: 1px solid red; */
 }
 
 header .logo {
@@ -74,6 +72,11 @@ section {
     justify-content: center;
 }
 
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
 .history {
     padding: 10px 30px 30px;
 }
@@ -84,16 +87,16 @@ section {
 
 h1, h2, h3 {
     color: hsl(210, 10%, 33%);
+
+}
+h1 {
+    font-size: 32px;
 }
 
 p {
     color: hsl(201, 11%, 66%);
     line-height: 1.6em;
     margin: 0 4px;
-}
-
-h1 {
-    font-size: 32px;
 }
 
 .green, .blue {
@@ -212,6 +215,152 @@ footer {
 /* LAYOUT - Desktop 1200px
 /******************************/
 
+@media (min-width: 1200px) {
 
+    body {
+        font-size: 19px;
+    }
 
+    header {
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255)), 
+            url("../images/bg-header-desktop.png");
+        background-repeat: no-repeat;
+        height: 600px;
+        /* border-bottom: 1px solid red; */
+    }
 
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        margin: 0 250px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .green, .blue {
+        margin: 40px 10px;
+        padding: 15px 30px; 
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .track {
+        padding-top: 90px;
+    }
+
+    .track p {
+        margin: 0 200px;
+    }
+    
+    .track-flex {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .computer {
+        width: 50%;
+        /* min-height: 350px; */
+        margin-left: -60px;
+    }
+
+    .track-side {
+        display: flex;
+        flex-direction: column;
+        margin: 70px 180px 100px 100px;
+    }
+
+    .track-side h3 {
+        font-size: 22px;
+        text-align: left;
+        margin: 40px 0 10px;
+    }
+
+    .track-side p {
+        font-size: 16px;
+        text-align: left;
+        margin: 0;
+        line-height: 1.6em;
+    }
+
+    .access {
+        padding-top: 70px;
+    }
+
+    .access p {
+        margin: 0 210px;
+        /* padding: 0 10px; */
+    }
+
+    .devices {
+        width: 80%;
+        margin: 60px auto 30px;
+    }
+
+    .workflow {
+        width: 80%;
+        padding: 0 0 60px;
+        margin: 0 auto;
+    }
+
+    .workflow p {
+        font-size: 17px;
+    }
+        
+    .workflow-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .workflow-flex p {
+        font-size: 14px;
+        margin: 0 10px;
+        line-height: 1.9em;
+    }
+
+    .blacklist-main, .snippet-main, .preview-main {
+        width: 32%;
+    }
+
+    .blacklist-main p, .snippet-main p, .preview-main p {
+        margin: 0;
+        padding-top: 10px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    .blacklist-main h3 {
+        margin-top: 40px;
+    }
+
+    .clients {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .appstore p {
+        font-size: 17px;
+    }
+
+    .footer-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+    }
+}
