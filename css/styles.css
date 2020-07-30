@@ -237,6 +237,14 @@ footer {
         margin: 0 250px;
     }
 
+    header .logo {
+        padding: 130px 0 20px;
+    }
+
+    .history {
+        padding: 10px 30px 20px;
+    }
+
     .buttons {
         display: flex;
         flex-direction: row;
@@ -247,6 +255,10 @@ footer {
     .green, .blue {
         margin: 40px 10px;
         padding: 15px 30px; 
+    }
+
+    .green:hover, .blue:hover {
+        cursor: pointer;
     }
 
     h2 {
@@ -302,7 +314,7 @@ footer {
 
     .devices {
         width: 80%;
-        margin: 60px auto 30px;
+        margin: 90px auto 30px;
     }
 
     .workflow {
@@ -361,6 +373,107 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 80%;
+        /* width: 80%; */
     }
+
+    .footer-menu .logo {
+        width: 50px;
+        height: 50px;
+        margin: 50px 140px;;
+    }
+
+    .menu {        /* same selector as below */
+        width: 50%;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    li {
+        /* text-align: left;
+        align-self: flex-start; */
+        margin: 10px 0;
+        font-size: 17px;
+    }
+
+    li:hover {
+        color: hsl(171, 66%, 44%);
+        cursor: pointer;
+    }
+
+    .faq {
+        padding-right: 120px;
+    }
+
+    .contact {
+        order: 4;
+        padding-right: 72px;
+    }
+
+    .privacy {
+        order: 2;
+        padding-right: 70px;
+    }
+
+    .press {
+        order: 5;
+    }
+
+    .install {
+        order: 3;
+    }
+
+    .social {
+        width: 30%;
+        margin: 60px 0 0 120px;
+        justify-content: flex-start;
+    }
+
+    .social img {
+        padding-right: 10px;
+    }
+
+    .social a:hover {
+        fill: hsl(171, 66%, 44%);
+        /* filter: invert(0.4) sepia(1) saturate(16.7) hue-rotate(122.4deg) brightness(1); */
+    }
+}
+
+/******************************
+/* LAYOUT - Desktop 1440px
+/******************************/
+
+@media (min-width: 1440px) {
+
+    header {
+        background-size: cover;
+    }
+
+    .devices {
+        width: 50%;
+    }
+
+    ul {
+        margin-top: 30px;
+    }
+
+    .faq {
+        padding-right: 150px;
+    }
+    
+    .contact {
+        padding-right: 103px;
+    }
+
+    .privacy {
+        padding-right: 100px;
+    }
+
+    .install {
+        padding-right: 100px;
+    }
+
 }
