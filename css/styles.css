@@ -44,7 +44,7 @@ For the social icons, you can use the SVGs provided or a font icon library. Some
 
 body {
     margin: 0 auto;
-    font-size: 16px;
+    font-size: 1rem;
     font-family: 'Bai Jamjuree', sans-serif;
     text-align: center;
 }
@@ -57,13 +57,13 @@ header {
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(255, 255, 255)), 
     url("../images/bg-header-mobile.png");
     background-repeat: no-repeat;
-    height: 705px;
+    height: 44.0625rem;
     /* border-bottom: 1px solid red; */
 }
 
 header .logo {
     text-align: center;
-    padding: 130px 0 40px;       /* or with positioning? */
+    padding: 8.125rem 0 2.5rem;       /* or with positioning? */
 }
 
 section {
@@ -78,7 +78,7 @@ section {
 }
 
 .history {
-    padding: 10px 30px 30px;
+    padding: 0.625rem 1.875rem 1.875rem;
 }
 
 .computer, .devices {
@@ -90,85 +90,85 @@ h1, h2, h3 {
 
 }
 h1 {
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 p {
     color: hsl(201, 11%, 66%);
     line-height: 1.6em;
-    margin: 0 4px;
+    margin: 0 0.25rem;
 }
 
 .green, .blue {
-    padding: 15px 0 10px;
-    border-radius: 30px;
+    padding: 0.9375rem 0 0.9375rem;
+    border-radius: 1.875rem;
     border: none;
     color: #fff;
-    font-size: 17px;
+    font-size: 1.0625rem;
     font-weight: 500;
     letter-spacing: 0.05em;
 }
 
 .green {
     background-color: hsl(171, 66%, 44%, 0.8);
-    border-bottom: 2px solid hsl(171, 66%, 44%);
-    margin: 45px 0 0;
-    box-shadow: 0 15px 10px -5px hsla(171, 66%, 44%, 0.218),     /* below */
+    border-bottom: 0.125rem solid hsl(171, 66%, 44%);
+    margin: 2.8125rem 0 0;
+    box-shadow: 0 0.9375rem 0.9375rem -0.3125rem hsla(171, 66%, 44%, 0.218),     /* below */
     -0.625rem 0 0.625rem -0.3125rem hsla(171, 66%, 44%, 0.03),  /* left */
     0.625rem 0 0.625rem -0.3125rem hsla(171, 66%, 44%, 0.03);   /* right */
 }
 
 .blue {
     background-color: hsl(233, 100%, 69%, 0.8);
-    border-bottom: 2px solid hsl(233, 100%, 69%);
-    margin: 25px 0 15px;
-    box-shadow: 0 15px 10px -5px hsla(233, 100%, 69%, 0.218),
+    border-bottom: 0.125rem solid hsl(233, 100%, 69%);
+    margin: 1.5625rem 0 0.9375rem;
+    box-shadow: 0 0.9375rem 0.9375rem -0.3125rem hsla(233, 100%, 69%, 0.218),
     -0.625rem 0 0.625rem -0.3125rem hsla(233, 100%, 69%, 0.03),
     0.625rem 0 0.625rem -0.3125rem hsla(233, 100%, 69%, 0.03);
 }
 
 h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
+    font-size: 1.75rem;
+    margin-bottom: 1.25rem;
 }
 
 .track {
-    padding: 100px 30px 60px;
+    padding: 6.25rem 1.875rem 3.75rem;
 }
 
 .access {
-    padding: 90px 30px 40px;
+    padding: 5.625rem 1.875rem 2.5rem;
 }
 
 .computer, .devices {
-    margin: 60px 0 30px;
+    margin: 3.75rem 0 1.875rem;
 }
 
 h3 {
-    font-size: 24px;
-    margin: 50px 0 10px;
+    font-size: 1.5rem;
+    margin: 3.125rem 0 0.9375rem;
 }
 
 .workflow {
-    padding: 0 30px 60px;
+    padding: 0 1.875rem 3.75rem;
 }
 
 .blacklist, .snippet, .preview {
     align-self: center;
-    padding: 90px 134px 5px; 
+    padding: 5.625rem 8.375rem 0.3125rem; 
 }
 
 .clients {
-    padding: 60px 0;
+    padding: 3.75rem 0;
 }
 
 .google, .ibm, .microsoft, .hp, .vg {
     align-self: center;
-    padding: 30px 0;
+    padding: 1.875rem 0;
 }
 
 .appstore {
-    padding: 60px 30px 30px;
+    padding: 3.75rem 1.875rem 1.875rem;
 }
 
 .footer-menu {
@@ -176,39 +176,39 @@ h3 {
 }
 
 .footer-menu .logo {
-    width: 50px;
-    height: 50px;
-    margin-top: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
+    margin-top: 3.125rem;
     /* position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -25px;
-    margin-left: -25px; */
+    margin-top: -1.5625rem;
+    margin-left: -1.5625rem; */
 }
 
 ul {
     list-style-type: none; 
-    padding: 10px 0;
+    padding: 0.9375rem 0;
 }
 
 li {
     color: hsl(210, 10%, 33%);
     text-align: center;
-    margin: 30px 0;
+    margin: 1.875rem 0;
 }
 .social {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
 }
 .social img {
-    padding: 0 20px;
+    padding: 0 1.25rem;
 }
 
 footer {
     background-color: hsl(201, 11%, 66%, 0.1);
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 }
 
 /******************************
@@ -218,31 +218,31 @@ footer {
 @media (min-width: 1200px) {
 
     body {
-        font-size: 19px;
+        font-size: 1.1875rem;
     }
 
     header {
         background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255)), 
             url("../images/bg-header-desktop.png");
         background-repeat: no-repeat;
-        height: 600px;
+        height: 37.5rem;
         /* border-bottom: 1px solid red; */
     }
 
     h1 {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 
     p {
-        margin: 0 250px;
+        margin: 0 15.625rem;
     }
 
     header .logo {
-        padding: 130px 0 20px;
+        padding: 8.125rem 0 1.25rem;
     }
 
     .history {
-        padding: 10px 30px 20px;
+        padding: 0.9375rem 1.875rem 1.25rem;
     }
 
     .buttons {
@@ -253,8 +253,8 @@ footer {
     }
 
     .green, .blue {
-        margin: 40px 10px;
-        padding: 15px 30px; 
+        margin: 2.5rem 0.9375rem;
+        padding: 0.9375rem 1.875rem; 
     }
 
     .green:hover, .blue:hover {
@@ -262,15 +262,15 @@ footer {
     }
 
     h2 {
-        font-size: 32px;
+        font-size: 2rem;
     }
 
     .track {
-        padding-top: 90px;
+        padding-top: 5.625rem;
     }
 
     .track p {
-        margin: 0 200px;
+        margin: 0 12.5rem;
     }
     
     .track-flex {
@@ -281,50 +281,50 @@ footer {
     .computer {
         width: 50%;
         /* min-height: 350px; */
-        margin-left: -60px;
+        margin-left: -3.75rem;
     }
 
     .track-side {
         display: flex;
         flex-direction: column;
-        margin: 70px 180px 100px 100px;
+        margin: 4.375rem 11.25rem 6.25rem 6.25rem;
     }
 
     .track-side h3 {
-        font-size: 22px;
+        font-size: 1.375rem;
         text-align: left;
-        margin: 40px 0 10px;
+        margin: 2.5rem 0 0.9375rem;
     }
 
     .track-side p {
-        font-size: 16px;
+        font-size: 1rem;
         text-align: left;
         margin: 0;
         line-height: 1.6em;
     }
 
     .access {
-        padding-top: 70px;
+        padding-top: 4.375rem;
     }
 
     .access p {
-        margin: 0 210px;
-        /* padding: 0 10px; */
+        margin: 0 13.125rem;
+        /* padding: 0 0.9375rem; */
     }
 
     .devices {
         width: 80%;
-        margin: 90px auto 30px;
+        margin: 5.625rem auto 1.875rem;
     }
 
     .workflow {
         width: 80%;
-        padding: 0 0 60px;
+        padding: 0 0 3.75rem;
         margin: 0 auto;
     }
 
     .workflow p {
-        font-size: 17px;
+        font-size: 1.0625rem;
     }
         
     .workflow-flex {
@@ -335,8 +335,8 @@ footer {
     }
 
     .workflow-flex p {
-        font-size: 14px;
-        margin: 0 10px;
+        font-size: 0.875rem;
+        margin: 0 0.9375rem;
         line-height: 1.9em;
     }
 
@@ -346,15 +346,15 @@ footer {
 
     .blacklist-main p, .snippet-main p, .preview-main p {
         margin: 0;
-        padding-top: 10px;
+        padding-top: 0.9375rem;
     }
 
     h3 {
-        font-size: 22px;
+        font-size: 1.375rem;
     }
 
     .blacklist-main h3 {
-        margin-top: 40px;
+        margin-top: 2.5rem;
     }
 
     .clients {
@@ -366,7 +366,7 @@ footer {
     }
 
     .appstore p {
-        font-size: 17px;
+        font-size: 1.0625rem;
     }
 
     .footer-menu {
@@ -377,9 +377,9 @@ footer {
     }
 
     .footer-menu .logo {
-        width: 50px;
-        height: 50px;
-        margin: 50px 140px;;
+        width: 3.125rem;
+        height: 3.125rem;
+        margin: 3.125rem 8.75rem;;
     }
 
     .menu {        /* same selector as below */
@@ -395,8 +395,8 @@ footer {
     li {
         /* text-align: left;
         align-self: flex-start; */
-        margin: 10px 0;
-        font-size: 17px;
+        margin: 0.9375rem 0;
+        font-size: 1.0625rem;
     }
 
     li:hover {
@@ -405,17 +405,17 @@ footer {
     }
 
     .faq {
-        padding-right: 120px;
+        padding-right: 7.5rem;
     }
 
     .contact {
         order: 4;
-        padding-right: 72px;
+        padding-right: 4.5rem;
     }
 
     .privacy {
         order: 2;
-        padding-right: 70px;
+        padding-right: 4.375rem;
     }
 
     .press {
@@ -428,17 +428,17 @@ footer {
 
     .social {
         width: 30%;
-        margin: 60px 0 0 120px;
+        margin: 3.75rem 0 0 7.5rem;
         justify-content: flex-start;
     }
 
     .social img {
-        padding-right: 10px;
+        padding-right: 0.9375rem;
     }
 
     .social a:hover {
         fill: hsl(171, 66%, 44%);
-        /* filter: invert(0.4) sepia(1) saturate(16.7) hue-rotate(122.4deg) brightness(1); */
+        filter: invert(0.4) sepia(1) saturate(16.7) hue-rotate(122.4deg) brightness(1);
     }
 }
 
@@ -457,23 +457,23 @@ footer {
     }
 
     ul {
-        margin-top: 30px;
+        margin-top: 1.875rem;
     }
 
     .faq {
-        padding-right: 150px;
+        padding-right: 9.375rem;
     }
     
     .contact {
-        padding-right: 103px;
+        padding-right: 6.4375rem;
     }
 
     .privacy {
-        padding-right: 100px;
+        padding-right: 6.25rem;
     }
 
     .install {
-        padding-right: 100px;
+        padding-right: 6.25rem;
     }
 
 }
