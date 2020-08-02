@@ -57,6 +57,7 @@ header {
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(255, 255, 255)), 
     url("../images/bg-header-mobile.png");
     background-repeat: no-repeat;
+    background-size: cover;
     height: 44.0625rem;
     /* border-bottom: 1px solid red; */
 }
@@ -81,8 +82,16 @@ section {
     padding: 0.625rem 1.875rem 1.875rem;
 }
 
-.computer, .devices {
+/* .computer, .devices {
     max-width: 100%;
+} */
+
+.computer {
+    background-image: url("../images/image-computer.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    height: 250px;
 }
 
 h1, h2, h3 {
@@ -140,6 +149,14 @@ h2 {
     padding: 5.625rem 1.875rem 2.5rem;
 }
 
+.devices {
+    background-image: url("../images/image-devices.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    height: 250px;
+}
+
 .computer, .devices {
     margin: 3.75rem 0 1.875rem;
 }
@@ -191,9 +208,10 @@ ul {
     padding: 0.9375rem 0;
 }
 
-li {
+li a {
     color: hsl(210, 10%, 33%);
     text-align: center;
+    text-decoration: none;
     margin: 1.875rem 0;
 }
 .social {
@@ -267,6 +285,7 @@ footer {
 
     .track {
         padding-top: 5.625rem;
+        padding-bottom: 0;
     }
 
     .track p {
@@ -279,15 +298,18 @@ footer {
     }
 
     .computer {
-        width: 50%;
-        /* min-height: 350px; */
+        background-size: contain;
+        /* height: 500px; */
+        width: 100%;
+        min-height: 700px;
         margin-left: -3.75rem;
+        margin-top: 0;
     }
 
     .track-side {
         display: flex;
         flex-direction: column;
-        margin: 4.375rem 11.25rem 6.25rem 6.25rem;
+        margin: 110px 150px 6.25rem 6.25rem;
     }
 
     .track-side h3 {
@@ -304,7 +326,7 @@ footer {
     }
 
     .access {
-        padding-top: 4.375rem;
+        padding-top: 0;
     }
 
     .access p {
@@ -313,7 +335,9 @@ footer {
     }
 
     .devices {
-        width: 80%;
+        background-size: contain;
+        width: 100%;
+        min-height: 500px;
         margin: 5.625rem auto 1.875rem;
     }
 
@@ -399,7 +423,7 @@ footer {
         font-size: 1.0625rem;
     }
 
-    li:hover {
+    li a span:hover {
         color: hsl(171, 66%, 44%);
         cursor: pointer;
     }
@@ -450,6 +474,16 @@ footer {
 
     header {
         background-size: cover;
+    }
+
+    .computer {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: -150px;
+    }
+
+    .track-side {
+        margin-top: 150px;
     }
 
     .devices {
