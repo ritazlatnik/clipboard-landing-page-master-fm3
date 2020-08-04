@@ -78,6 +78,10 @@ section {
     flex-direction: column;
 }
 
+a[href], button {
+    cursor: default;
+}
+
 .history {
     padding: 0.625rem 1.875rem 1.875rem;
 }
@@ -109,7 +113,7 @@ p {
 }
 
 .green, .blue {
-    padding: 0.9375rem 0 0.9375rem;
+    padding: 0.9375rem 70px;
     border-radius: 1.875rem;
     border: none;
     color: #fff;
@@ -208,11 +212,14 @@ ul {
     padding: 0.9375rem 0;
 }
 
+li {
+    padding: 15px 0;
+}
+
 li a {
-    color: hsl(210, 10%, 33%);
+    color: hsl(210, 10%, 33%, 0.8);
     text-align: center;
     text-decoration: none;
-    margin: 1.875rem 0;
 }
 .social {
     display: flex;
@@ -220,8 +227,9 @@ li a {
     justify-content: center;
     margin-bottom: 3.75rem;
 }
-.social img {
-    padding: 0 1.25rem;
+
+svg {
+    margin: 0 20px;
 }
 
 footer {
@@ -396,7 +404,7 @@ footer {
     .footer-menu {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        /* justify-content: space-between; */
         /* width: 80%; */
     }
 
@@ -406,7 +414,7 @@ footer {
         margin: 3.125rem 8.75rem;;
     }
 
-    .menu {        /* same selector as below */
+    .menu {
         width: 50%;
     }
 
@@ -416,38 +424,20 @@ footer {
         flex-wrap: wrap;
     }
 
-    li {
+    li a {
         /* text-align: left;
         align-self: flex-start; */
-        margin: 0.9375rem 0;
+        /* margin: 0.9375rem 0; */
         font-size: 1.0625rem;
     }
 
-    li a span:hover {
-        color: hsl(171, 66%, 44%);
+    .menu a[href]:hover {
         cursor: pointer;
+        color: hsl(171, 66%, 44%);
     }
 
-    .faq {
-        padding-right: 7.5rem;
-    }
-
-    .contact {
-        order: 4;
-        padding-right: 4.5rem;
-    }
-
-    .privacy {
-        order: 2;
-        padding-right: 4.375rem;
-    }
-
-    .press {
-        order: 5;
-    }
-
-    .install {
-        order: 3;
+    li {
+        /* padding: 15px 30px 15px 0; */
     }
 
     .social {
